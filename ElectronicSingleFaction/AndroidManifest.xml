@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shanxi.electronicsinglefaction"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+         android:theme="@android:style/Theme.NoTitleBar"
+       android:windowSoftInputMode="adjustPan"
+       android:screenOrientation="portrait" 
+        >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".activity.TaskActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name=".activity.ColleaguesPositionActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name=".activity.SystemMessageActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".activity.StartTaskActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".activity.NewTaskActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".activity.FinishActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
