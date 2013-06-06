@@ -68,11 +68,11 @@ this.mHost = getTabHost();
 this.mHost.addTab(this.mHost.newTabSpec("ONE").setIndicator("ONE")
 		.setContent(new Intent(this, TaskActivity.class)));
 this.mHost.addTab(this.mHost.newTabSpec("THREE").setIndicator("THREE")
-		.setContent(new Intent(this, AboutActivity.class)));
-this.mHost.addTab(this.mHost.newTabSpec("FOUR").setIndicator("FOUR")
 		.setContent(new Intent(this, ColleaguesPositionActivity.class)));
+this.mHost.addTab(this.mHost.newTabSpec("FOUR").setIndicator("FOUR")
+		.setContent(new Intent(this,SystemMessageActivity.class)));
 this.mHost.addTab(this.mHost.newTabSpec("SIX").setIndicator("SIX")
-		.setContent(new Intent(this, SystemMessageActivity.class)));
+		.setContent(new Intent(this,AboutActivity.class)));
 this.radioButton0 = ((RadioButton) findViewById(getResources()
 		.getIdentifier("radio_button0", "id", getPackageName())));
 this.radioButton2 = ((RadioButton) findViewById(getResources()
@@ -83,6 +83,7 @@ this.radioButton5 = ((RadioButton) findViewById(getResources()
 		.getIdentifier("radio_button5", "id", getPackageName())));
 this.radioderGroup = ((RadioGroup) findViewById(getResources()
 		.getIdentifier("cm_ck_main_radio", "id", getPackageName())));
+
 this.lastRadioButton = this.radioButton0;
 this.radioderGroup.setOnCheckedChangeListener(this);
 

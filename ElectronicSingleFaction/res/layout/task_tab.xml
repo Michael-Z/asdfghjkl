@@ -18,16 +18,15 @@
             android:gravity="center_vertical"
             android:orientation="horizontal" >
 
-
             <RadioButton
                 android:id="@+id/music_radio_button0"
                 style="@style/category_tab_bottom"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="2.0dip"
-                android:gravity="center"
                 android:background="@drawable/cm_ck_top_represent"
+                android:gravity="center"
                 android:tag="rating_radio_button3"
-                android:text="新任务" />
+                android:text="@string/jobs_new" />
             
             <RadioButton
                 android:id="@+id/music_radio_button1"
@@ -36,8 +35,7 @@
                 android:layout_marginTop="2.0dip"
                 android:gravity="center"
                 android:tag="rating_radio_button2"
-                android:text="进行中" />
-            
+                android:text="@string/jobs_doing" />
             
             <RadioButton
                 android:id="@+id/music_radio_button2"
@@ -46,7 +44,8 @@
                 android:layout_marginTop="2.0dip"
                 android:gravity="center"
                 android:tag="rating_radio_button2"
-                android:text="已完成" />
+                android:text="@string/jobs_finished" />
+
         </RadioGroup>
 
         <FrameLayout

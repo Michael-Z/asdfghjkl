@@ -1,15 +1,29 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+
+          android:id="@+id/search_relativer"
+      android:layout_width="fill_parent"
+      android:layout_height="250.0dip"
+      android:background="@drawable/cm_ck_sync_now_bg" 
+    
  >
-  <RelativeLayout
-        android:id="@+id/search_relativer"
-        android:layout_width="fill_parent"
-        android:layout_height="50.0dip"
-        android:background="@drawable/cm_ck_sync_now_bg" >
+
+
 		<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/cm_ck_back_normal" android:id="@+id/search_back" android:layout_marginLeft="5dip"/>
-      	<TextView android:id="@+id/cm_ck_search_title" android:text=""  android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@android:color/white" android:textSize="20sp" />  
-	</RelativeLayout>
+      	<TextView android:id="@+id/cm_ck_search_title" android:text=""  android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@android:color/white" android:textSize="20sp" />
+
+      	<EditText
+      	    android:id="@+id/editText1"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_alignTop="@+id/cm_ck_search_title"
+      	    android:layout_marginTop="20dp"
+      	    android:layout_toLeftOf="@+id/cm_ck_search_title"
+      	    android:ems="10"
+      	    android:inputType="textMultiLine"
+      	    android:text="@string/about_textfield_str" >
+
+      	    <requestFocus />
+      	</EditText>
 
 </RelativeLayout>
