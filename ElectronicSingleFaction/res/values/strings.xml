@@ -15,4 +15,8 @@
 	<string name="jobs_finished">已完成</string>
 	<string name="about_textfield_str">山西电子派单系统详细内容详细内容详细内容等等版本号:1.0.0.1</string>
 
+	<string name="about_version">版本：1.0.0</string>
+	<string name="about_copyright">Copyright ©2013-2013 乐辉网络公司版权所有"</string>
+	<string name="about_appname">陕西电子派代系统 For Android</string>
+		
 </resources>
